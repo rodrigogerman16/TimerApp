@@ -25,6 +25,11 @@
   padding: 0 2rem 2rem;
 }
 
+.btns-container{
+  height: 200px;
+display: flex;
+flex-direction: column;
+}
 
 .button {
   padding: 0rem 1.5rem;
@@ -34,7 +39,6 @@
   font-weight: 600;
   font-size: .8rem;
   border-style: groove;
-  min-width: -webkit-fill-available;
 }
 
 .button:focus {
@@ -62,6 +66,5 @@
   border: 2px solid black;
   border-radius: 4px;
   padding: 0.2em;
-  min-width: -webkit-fill-available;
   margin: 0 0.5em;
 }

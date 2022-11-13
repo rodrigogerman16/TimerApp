@@ -50,7 +50,7 @@ const Timer = () => {
           {segundos}
         </div>
 
-        <div className="row">
+        <div className="btns-container">
 
           <button onClick={() => setActivo(activo ? false : true)} 
           className="button button-primary">
